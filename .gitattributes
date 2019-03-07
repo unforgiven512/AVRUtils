@@ -1,0 +1,60 @@
+#
+# .gitattributes
+#
+
+#
+# FILE PATTERN						RULES
+# ============						=====
+
+## Generic ("catch-all") ##
+*									text=auto
+
+
+## Source Code ##
+*.c									text eol=lf diff=cpp
+*.h									text eol=lf diff=cpp
+*.cc								text eol=lf diff=cpp
+*.hh								text eol=lf diff=cpp
+*.cpp								text eol=lf diff=cpp
+*.hpp								text eol=lf diff=cpp
+*.cxx								text eol=lf diff=cpp
+*.hxx								text eol=lf diff=cpp
+*.py								text eol=lf
+*.pl								text eol=lf
+*.php								text eol=lf
+*.vhd								text eol=lf
+*.vhdl								text eol=lf
+*.v									text eol=lf
+*.sv								text eol=lf
+
+
+## Scripts ##
+*.sh								text eol=lf
+*.csh								text eol=lf
+*.bash								text eol=lf
+*.fish								text eol=lf
+*.bat								text eol=crlf
+*.cmd								text eol=crlf
+*.ps1								text eol=crlf
+Makefile							text eol=lf
+*.mk								text eol=lf
+*.make								text eol=lf
+*.makefile							text eol=lf
+
+
+## Text Files ##
+*.txt								text eol=crlf
+*.md								text eol=crlf
+*.mkdn								text eol=crlf
+*.markdown							text eol=crlf
+*.adoc								text eol=lf
+*.rst								text eol=lf
+*.xml								text eol=lf
+*.xsl								text eol=lf
+
+
+## Arduino ##
+*.ino								text eol=lf diff=cpp
+*.pde								text eol=lf diff=cpp
+library.properties					text eol=lf
+keywords.txt						text eol=crlf

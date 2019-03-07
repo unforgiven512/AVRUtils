@@ -1,3 +1,16 @@
+#
+# .gitignore
+#
+
+###########
+# GENERIC #
+###########
+*~
+*.bak
+*.tmp
+
+
+
 # Prerequisites
 *.d
 
